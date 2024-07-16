@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="52241" started-at="2024-07-14T16:42:43Z" finished-at="2024-07-14T16:43:35Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="52241" started-at="2024-07-14T16:42:43Z" finished-at="2024-07-14T16:43:35Z">
+      <class name="testcases.TC_001_ValidRegistration">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testcases.TC_001_ValidRegistration@7f1302d6]" name="setup" is-config="true" duration-ms="13499" started-at="2024-07-14T22:12:43Z" finished-at="2024-07-14T22:12:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateregistration()[pri:0, instance:testcases.TC_001_ValidRegistration@7f1302d6]" name="validateregistration" duration-ms="15640" started-at="2024-07-14T22:12:56Z" finished-at="2024-07-14T22:13:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateregistration -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.TC_001_ValidRegistration@7f1302d6]" name="teardown" is-config="true" duration-ms="585" started-at="2024-07-14T22:13:12Z" finished-at="2024-07-14T22:13:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.TC_001_ValidRegistration -->
+      <class name="testcases.TC_003_Signin">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testcases.TC_003_Signin@43ee72e6]" name="setup" is-config="true" duration-ms="7410" started-at="2024-07-14T22:13:13Z" finished-at="2024-07-14T22:13:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="signin()[pri:0, instance:testcases.TC_003_Signin@43ee72e6]" name="signin" duration-ms="14528" started-at="2024-07-14T22:13:20Z" finished-at="2024-07-14T22:13:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.TC_003_Signin@43ee72e6]" name="teardown" is-config="true" duration-ms="549" started-at="2024-07-14T22:13:35Z" finished-at="2024-07-14T22:13:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.TC_003_Signin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
